@@ -58,7 +58,7 @@ Inspired by the minimalist brilliance of [NiceAtNoon](https://www.niceatnoon.nl/
 ---
 
 ## 📬 Connect With Me
-- 💼 [LinkedIn](https://www.linkedin.com/in/your-profile)
+- 💼 [LinkedIn](https://www.linkedin.com/in/vishal-ravindra-patil/)
 - 🐙 [GitHub](https://github.com/CodeX047)
 
 ---
