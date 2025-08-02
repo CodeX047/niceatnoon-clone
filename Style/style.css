@@ -1,0 +1,74 @@
+/* #F4F4F1 */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+body {
+  background-color: #e4e4e4;
+  color: #090b0c;
+}
+
+.part1 {
+  padding: 0 77px;
+}
+
+.part2 section {
+  padding: 0 77px;
+}
+
+.p1 {
+  padding: 0 77px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.nav2 ul li:hover {
+  background-color: #090b0c ;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+#line {
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+}
+
+.header1 .h-div {
+  position: relative;
+}
+
+.scroll-img {
+  scrollbar-width: none;
+  animation: scroll 15s linear infinite;
+  will-change: transform;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+
+.header2 {
+  animation: text-appear 2s ease-in both;
+}
+
+@keyframes text-appear {
+  from {
+    opacity: 0;
+    transform: translateY(90px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.long-text {
+  animation: text-appear 2s ease-in both;
+}
